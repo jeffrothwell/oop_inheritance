@@ -83,31 +83,31 @@ class QuoteCollector < Multilinguist
   end
 
 end
-
-p jeff = MathGenius.new
-# first in english
-p jeff.report_total([23,54,654,86,3456,2,45])
-# now in swedish
-p jeff.travel_to('sweden')
-p jeff.report_total([23,54,654,86,3456,2,45])
-
-p jeff.travel_to('germany')
-p jeff.report_total([23,54,654,86,3456,2,45])
-
-p jeff.travel_to('spain')
-p jeff.report_total([23,54,654,86,3456,2,45])
-
-p moya = QuoteCollector.new
-
-moya.save_quote("A rising tide floats all boats")
-moya.save_quote("Better than a kick in the pants with a frozen boot")
-moya.save_quote("A bird in the hand is worth two in the bush")
-
-p moya.translate_random_quote
-
-p moya.travel_to("finland")
-p moya.translate_random_quote
-p moya.travel_to("Italy")
-p moya.translate_random_quote
-p moya.travel_to("Germany")
-p moya.translate_random_quote
+#
+# p jeff = MathGenius.new
+# # first in english
+# p jeff.report_total([23,54,654,86,3456,2,45])
+# # now in swedish
+# p jeff.travel_to('sweden')
+# p jeff.report_total([23,54,654,86,3456,2,45])
+#
+# p jeff.travel_to('germany')
+# p jeff.report_total([23,54,654,86,3456,2,45])
+#
+# p jeff.travel_to('spain')
+# p jeff.report_total([23,54,654,86,3456,2,45])
+#
+# p moya = QuoteCollector.new
+#
+# moya.save_quote("A rising tide floats all boats")
+# moya.save_quote("Better than a kick in the pants with a frozen boot")
+# moya.save_quote("A bird in the hand is worth two in the bush")
+#
+# p moya.translate_random_quote
+#
+# p moya.travel_to("finland")
+# p moya.translate_random_quote
+# p moya.travel_to("Italy")
+# p moya.translate_random_quote
+# p moya.travel_to("Germany")
+# p moya.translate_random_quote
